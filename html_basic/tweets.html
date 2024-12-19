@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tweets Page</title>
+    <title>Tweets</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Main -->
     <main>
         <article>
-            <h2>Recent Tweet</h2> <!-- Heading added for the article -->
+            <h1>My Embedded Tweets</h1>
+            <!-- Embedded Tweet -->
             <blockquote class="twitter-tweet">
-                <p lang="en" dir="ltr">This is an embedded tweet!</p>
-                <a href="https://twitter.com/Twitter/status/1456341146536738816"></a>
+                <a href="https://twitter.com/TwitterDev/status/1567593817167609856">Tweet by TwitterDev</a>
             </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
         </article>
-
         <aside>
             <p>Placeholder to add comment thread later</p>
         </aside>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>Made by Sthembiso Moleke - <a href="https://example.com" target="_blank">here</a></p>
+        <p>Made by Sthembiso Moleke - <a href="https://github.com/SthembisoMoleke" target="_blank">here</a>.</p>
     </footer>
-
-    <script async src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
+
